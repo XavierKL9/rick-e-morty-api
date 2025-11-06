@@ -1,0 +1,23 @@
+body {
+    background-color: #272B33;
+    color: #F5F5F5;
+    font-family: sans-serif;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Permite quebrar a linha */
+    justify-content: center;
+    gap: 20px;
+}
+.card {
+    background-color: #3C3E44;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 280px;
+}
+.card img {
+    width: 100%;
+}
+.card-info {
+    padding: 15px;
+}
